@@ -57,7 +57,7 @@ if ($_SESSION['mylog'] == false) {
     </div>
                     <?php
                     $login= $_GET['login'];
-                    $connection = @mysqli_connect('mysql.cba.pl', 'Architektura', 'Architektura123', 'baza')
+                    $connection = @mysqli_connect('mysql.cba.pl', 'Architektura', 'Architektura123', 'thelaczek')
                         or die('zły adres lub login');
                     mysqli_set_charset($connection, 'UTF8');
                     $sql = "select * from `$login` order by `Data biegu`";
