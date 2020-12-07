@@ -1,0 +1,118 @@
+* {
+  --dark: #051622;
+  --green: #1ba098;
+  --light: #deb992;
+}
+
+.login-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(45deg, var(--dark) 50%, var(--green) 50%); */
+  background: url("./images/background.PNG");
+  background-size: cover;
+}
+.login-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: auto;
+  border-radius: 20%;
+  color: var(--light);
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+}
+.login-img {
+  width: 40%;
+  padding: 10px;
+}
+.login-button-container {
+  display: grid;
+  grid-template-columns: 50% 56%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.login-button-container > :nth-child(1) {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.login-button-container > :nth-child(3) {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+}
+.login-button-container > :nth-child(4) {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  background-color: rgb(49, 77, 168);
+}
+.login-button-container > :nth-child(5) {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  color: black;
+  background-color: white;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 25px;
+}
+.input-container label {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 18px;
+  color: var(--light);
+  transition: all 0.5s ease-in-out;
+}
+.input-container input {
+  border: 0;
+  border-bottom: 1px solid #555;
+  background: transparent;
+  width: 100%;
+  padding: 8px 0 5px 0;
+  font-size: 18px;
+  color: var(--light);
+}
+.input-container input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #e74c3c;
+}
+.btn {
+  display: flex;
+  background-color: #e74c3c;
+  outline: none;
+  border: 0;
+  color: white;
+  padding: 15px 13px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  border-radius: 2px;
+  cursor: pointer;
+  position: relative;
+  margin: 5px;
+  justify-content: center;
+}
+.input-container input:focus ~ label,
+.input-container input:valid ~ label {
+  top: -12px;
+  font-size: 12px;
+}
+.icon {
+  height: 15px;
+  padding: 4px;
+  margin: 0;
+  padding: 0;
+  padding-left: 15px;
+}

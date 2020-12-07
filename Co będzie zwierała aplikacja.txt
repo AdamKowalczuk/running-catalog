@@ -1,0 +1,7 @@
+Co będzie zwierała aplikacja:
+*panel logowania
+*wyszukiwanie ze względu na dystans
+*wyszukiwanie ze względu na województwo
+*wyszukiwanie po dacie
+*wyszukiwanie po miesišcu?
+*opcja zaznaczania brałem/wezmę udział?

@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+}
+.container-form,
+.Welcome {
+  /* background: linear-gradient(#051622 30%, #1ba098 50%, #051622); */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("./images/background.PNG");
+  background-size: cover;
+}
+.register-form {
+  background-color: rgb(195, 248, 188);
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  min-width: 30%;
+  min-height: 75%;
+  border-radius: 10%;
+}
+.inp {
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid rgb(17, 180, 209);
+  background: transparent;
+  cursor: text;
+}
+.inp:hover,
+:focus {
+  background-color: rgb(156, 216, 188);
+  transition: all 0.5s ease-in;
+}
+.btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Go {
+  width: 30%;
+  height: 50px;
+  background-color: #90ccdf;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+.btn {
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  background-color: #90ccdf;
+  width: 30%;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+label {
+  font-size: 18px;
+  color: rgb(185, 183, 32);
+}
+.Welcome {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
