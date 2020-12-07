@@ -1,5 +1,5 @@
 <?php
-    $connection = @mysqli_connect('mysql.cba.pl', 'Architektura', 'Architektura123', 'baza')
+    $connection = @mysqli_connect('mysql.cba.pl', 'Architektura', 'Architektura123', 'thelaczek')
         or die('zły adres lub login');
     mysqli_set_charset($connection, 'UTF8');
     $Login = $_COOKIE['log'];
